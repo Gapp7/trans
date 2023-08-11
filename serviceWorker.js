@@ -2,17 +2,17 @@ const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/",
   "/https://ymnoid.blogspot.com",
-  "/style.css",
-  "/app.js",
-  "/coffee1.jpg",
-  "/coffee2.jpg",
-  "/coffee3.jpg",
-  "/coffee4.jpg",
-  "/coffee5.jpg",
-  "/coffee6.jpg",
-  "/coffee7.jpg",
-  "/images/coffee8.jpg",
-  "/coffee9.jpg"
+  "https://cdn.statically.io/gh/Gapp7/trans/main/style.css",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/app.js",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee1.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee2.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee3.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee4.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee5.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee6.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee7.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee8.jpg",
+  "https://cdn.statically.io/gh/Gapp7/trans/main/coffee9.jpg"
 ];
 
 self.addEventListener("install", installEvent => {
