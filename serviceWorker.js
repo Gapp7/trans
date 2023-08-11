@@ -1,9 +1,9 @@
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/",
-  "/index.html",
-  "/css/style.css",
-  "/js/app.js",
+  "/https://ymnoid.blogspot.com",
+  "/style.css",
+  "/app.js",
   "/images/coffee1.jpg",
   "/images/coffee2.jpg",
   "/images/coffee3.jpg",
