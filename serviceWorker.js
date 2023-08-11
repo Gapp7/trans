@@ -4,15 +4,15 @@ const assets = [
   "/https://ymnoid.blogspot.com",
   "/style.css",
   "/app.js",
-  "/images/coffee1.jpg",
-  "/images/coffee2.jpg",
-  "/images/coffee3.jpg",
-  "/images/coffee4.jpg",
-  "/images/coffee5.jpg",
-  "/images/coffee6.jpg",
-  "/images/coffee7.jpg",
+  "/coffee1.jpg",
+  "/coffee2.jpg",
+  "/coffee3.jpg",
+  "/coffee4.jpg",
+  "/coffee5.jpg",
+  "/coffee6.jpg",
+  "/coffee7.jpg",
   "/images/coffee8.jpg",
-  "/images/coffee9.jpg"
+  "/coffee9.jpg"
 ];
 
 self.addEventListener("install", installEvent => {
