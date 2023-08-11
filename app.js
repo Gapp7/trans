@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", showCoffees);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("https://cdn.statically.io/gh/Gapp7/trans/main/serviceWorker.js")
+      .register("https://rawcdn.githack.com/Gapp7/trans/2e3ce8d23503f0d2f466ba1ab9039daaf842b4fa/serviceWorker.js")
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
