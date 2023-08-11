@@ -2,39 +2,39 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Perspiciatis",
-    image: "/coffee1.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee1.jpg"
   },
   {
     name: "Voluptatem",
-    image: "/coffee2.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee2.jpg"
   },
   {
     name: "Explicabo",
-    image: "/coffee3.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee3.jpg"
   },
   {
     name: "Rchitecto",
-    image: "/coffee4.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee4.jpg"
   },
   {
     name: " Beatae",
-    image: "/coffee5.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee5.jpg"
   },
   {
     name: " Vitae",
-    image: "/coffee6.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee6.jpg"
   },
   {
     name: "Inventore",
-    image: "/coffee7.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee7.jpg"
   },
   {
     name: "Veritatis",
-    image: "/coffee8.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee8.jpg"
   },
   {
     name: "Accusantium",
-    image: "/coffee9.jpg"
+    image: "https://cdn.statically.io/gh/Gapp7/trans/main/coffee9.jpg"
   }
 ];
 const showCoffees = () => {
@@ -45,7 +45,7 @@ const showCoffees = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Taste</a>
+                <a class="card--link" href="https://www.google.com">Taste</a>
               </div>
               `)
   );
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", showCoffees);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("/serviceWorker.js")
+      .register("https://cdn.statically.io/gh/Gapp7/trans/main/serviceWorker.js")
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
