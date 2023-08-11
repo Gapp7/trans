@@ -1,7 +1,7 @@
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/",
-  "/https://ymnoid.blogspot.com",
+  "https://ymnoid.blogspot.com",
   "https://cdn.statically.io/gh/Gapp7/trans/main/style.css",
   "https://cdn.statically.io/gh/Gapp7/trans/main/app.js",
   "https://cdn.statically.io/gh/Gapp7/trans/main/coffee1.jpg",
